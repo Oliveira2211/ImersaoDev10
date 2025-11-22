@@ -1,0 +1,74 @@
+[
+    {
+        "palavra": "oi",
+        "en": "hi",
+        "es": "hola",
+        "ru": "привет"
+    },
+    {
+        "palavra": "tchau",
+        "en": "bye",
+        "es": "adiós",
+        "ru": "пока"
+    },
+    {
+        "palavra": "eu",
+        "en": "i",
+        "es": "yo",
+        "ru": "я"
+    },
+    {
+        "palavra": "cachorro",
+        "en": "dog",
+        "es": "perro",
+        "ru": "собака"
+    },
+    {
+        "palavra": "japão",
+        "en": "japan",
+        "es": "japón",
+        "ru": "япония"
+    },
+    {
+        "palavra": "carro",
+        "en": "car",
+        "es": "coche",
+        "ru": "машина"
+    },
+    {
+        "palavra": "janela",
+        "en": "window",
+        "es": "ventana",
+        "ru": "окно"
+    },
+    {
+        "palavra": "caneta",
+        "en": "pen",
+        "es": "bolígrafo",
+        "ru": "ручка"
+    },
+    {
+        "palavra": "maçã",
+        "en": "apple",
+        "es": "manzana",
+        "ru": "яблоко"
+    },
+    {
+        "palavra": "leite",
+        "en": "milk",
+        "es": "leche",
+        "ru": "молоко"
+    },
+    {
+        "palavra": "inverno",
+        "en": "winter",
+        "es": "invierno",
+        "ru": "зима"
+    },
+    {
+        "palavra": "bonita",
+        "en": "beautiful",
+        "es": "guapa",
+        "ru": "красивая"
+    }
+]

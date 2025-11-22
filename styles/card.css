@@ -1,0 +1,92 @@
+.card {
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* NOVO ESTILO DO CARD */
+    background-color: var(--glass-bg); /* Fundo branco translúcido */
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Desfoque forte atrás do card */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); /* Sombra difusa moderna */
+}
+
+.main-image {
+    width: 100%; /* Ajustável conforme a necessidade */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.flag {
+    width: 24px; /* Tamanho estimado para ícone pequeno */
+    height: 24px;
+    object-fit: fill;
+
+    /* ADICIONE ISSO AQUI: */
+    border: 1px solid rgba(0, 0, 0, 0.20); /* Borda cinza bem fininha */
+    border-radius: 50%; /* Deixa a bandeira redondinha (opcional, mas fica moderno) */
+    /* OU se preferir quadrada com cantos suaves: */
+    /* border-radius: 4px; */
+    
+    background-color: #eee; /* Garante um fundo cinza caso a imagem png tenha transparência */
+}
+
+.main-title, .text {
+    color: var(--primary-color); /* Texto azul escuro para contraste no fundo claro */
+}
+
+.div-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.audio-button {
+    /* 1. Define o tamanho fixo para garantir a forma geométrica */
+    width: 40px;
+    height: 40px;
+    
+    /* 2. Garante o círculo */
+    border-radius: 50%;
+    
+    /* 3. Centraliza o ícone dentro da bolinha */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Estilo Visual */
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 168, 204, 0.1); /* Fundo sutil (Turquesa bem clarinho) */
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+/* Ajusta o ícone SVG */
+.audio-button svg {
+    width: 20px; /* Garante tamanho padrão do ícone */
+    height: 20px;
+    fill: var(--accent-color); /* Usa a cor Turquesa definida no root */
+    transition: fill 0.3s ease;
+}
+
+/* Efeito ao passar o mouse (Hover) */
+.audio-button:hover {
+    background-color: var(--accent-color); /* O botão fica preenchido com a cor forte */
+    box-shadow: 0 0 10px var(--accent-color); /* Efeito de brilho "Neon" */
+}
+
+/* Muda a cor do ícone para branco quando o fundo fica colorido */
+.audio-button:hover svg {
+    fill: #ffffff;
+}
+
+/* Efeito de clique */
+.audio-button:active {
+    transform: scale(0.9);
+}
